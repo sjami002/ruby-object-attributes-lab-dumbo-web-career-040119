@@ -5,9 +5,16 @@ class Person
     @name = new_name
   end
   
+  def job=(breed)
+    @breed = breed
+  end
+  
   def name
     @name
-    @job
+  end
+  
+  def breed
+    @breed
   end
   
   
